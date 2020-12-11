@@ -34,7 +34,7 @@ class GAN(object):
     def generator(self, c, z, reuse=tf.AUTO_REUSE, training=True):
         
         depth_cpw = 32*8
-        dim_cpw = (self.bezier_degree+1)/8
+        dim_cpw = (self.bezier_degree+1)//8
         kernel_size = (4,3)
 #        noise_std = 0.01
         
