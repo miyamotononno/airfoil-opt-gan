@@ -7,7 +7,7 @@ Author(s): Wei Chen (wchen459@umd.edu)
 
 import argparse
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from importlib import import_module
 
 from gan import GAN
@@ -111,4 +111,4 @@ if __name__ == "__main__":
 #    plt.ylabel('Relative diversity')
 #    plt.savefig('rdiv.svg', dpi=600)
 
-    print 'All completed :)'
+    print('All completed :)')

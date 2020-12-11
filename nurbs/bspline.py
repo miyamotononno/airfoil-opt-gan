@@ -211,6 +211,6 @@ def plot_curve(Q, P, W, U, p, n_points=200):
     plt.xlim(-0.1, 1.1)
     err = eval_error(Q, P, W, U, p)
     plt.title('error: %f ' % err)
-    plt.show()
+    plt.savefig("plot_curve.png")
 
     

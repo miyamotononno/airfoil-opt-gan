@@ -71,7 +71,7 @@ def visualize(X):
     # Reconstruction error
     X_rec = pca.inverse_transform(F)
     err = mean_squared_error(X, X_rec)
-    print 'Reconstruct error: ', err
+    print('Reconstruct error: ', err)
     
     # 3D Plot
     fig3d = plt.figure()
@@ -89,7 +89,7 @@ def visualize(X):
 #    ax3d.set_xticks([])
 #    ax3d.set_yticks([])
 #    ax3d.set_zticks([])
-    plt.show()
+    plt.savefig("visualize.png")
     
 def safe_remove(filename):
     if os.path.exists(filename):
