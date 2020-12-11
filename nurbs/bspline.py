@@ -12,6 +12,8 @@ m+1 : number of data points
 """
 
 import numpy as np
+import matplotlib as mpl
+mpl.use('Agg')
 from matplotlib import pyplot as plt
 
 

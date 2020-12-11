@@ -3,7 +3,8 @@ Plots samples or new shapes in the semantic space.
 
 Author(s): Wei Chen (wchen459@umd.edu), Jonah Chazan (jchazan@umd.edu)
 """
-
+import matplotlib
+matplotlib.use('Agg')
 from matplotlib import pyplot as plt
 from matplotlib import cm
 import numpy as np

@@ -316,7 +316,8 @@ class GAN(object):
             print(log_mesg)
             
             if save_interval>0 and (t+1)%save_interval==0:
-                
+                import matplotlib
+                matplotlib.use('Agg')
                 from matplotlib import pyplot as plt
                 
                 ub_batch, db_batch = self.sess.run([ub, db], feed_dict={self.c: y_latent, self.z: noise})

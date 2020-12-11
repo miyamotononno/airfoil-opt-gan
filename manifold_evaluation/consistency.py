@@ -27,9 +27,6 @@ def consistency(gen_func, d, bounds):
         c = sample_line(d, n_points, bounds)
         dist_c = np.linalg.norm(c - c[0], axis=1)
         
-#        from matplotlib import pyplot as plt
-#        plt.scatter(c[:,0], c[:,1])
-        
         X = gen_func(c)
         X = X.reshape((n_points, -1))
         dist_X = np.linalg.norm(X - X[0], axis=1)
