@@ -10,6 +10,8 @@ from __future__ import division
 import time
 import argparse
 import numpy as np
+import matplotlib as mpl
+mpl.use('Agg')
 import matplotlib.pyplot as plt
 from importlib import import_module
 import sklearn.gaussian_process as gp

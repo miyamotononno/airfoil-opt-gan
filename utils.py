@@ -13,6 +13,7 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import mean_squared_error
 
 import matplotlib
+matplotlib.use('Agg')
 from matplotlib import pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
