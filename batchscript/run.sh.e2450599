@@ -1,0 +1,38 @@
+2020-12-11 20:13:19.961444: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-12-11 20:13:20.109632: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+name: Tesla P100-SXM2-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.4805
+pciBusID: 0000:06:00.0
+totalMemory: 15.90GiB freeMemory: 15.64GiB
+2020-12-11 20:13:20.222141: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 1 with properties: 
+name: Tesla P100-SXM2-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.4805
+pciBusID: 0000:84:00.0
+totalMemory: 15.90GiB freeMemory: 15.64GiB
+2020-12-11 20:13:20.222209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0, 1
+2020-12-11 20:13:21.804753: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-11 20:13:21.804790: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 1 
+2020-12-11 20:13:21.804800: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N Y 
+2020-12-11 20:13:21.804804: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 1:   Y N 
+2020-12-11 20:13:21.804980: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15163 MB memory) -> physical GPU (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0000:06:00.0, compute capability: 6.0)
+2020-12-11 20:13:22.056460: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 15163 MB memory) -> physical GPU (device: 1, name: Tesla P100-SXM2-16GB, pci bus id: 0000:84:00.0, compute capability: 6.0)
+/lustre/app/acc/anaconda3/4.3.0/lib/python3.6/site-packages/matplotlib/pyplot.py:524: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:    7.1s
+[Parallel(n_jobs=8)]: Done 100 out of 100 | elapsed:   31.1s finished
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:    6.8s
+[Parallel(n_jobs=8)]: Done 100 out of 100 | elapsed:   30.5s finished
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:    6.8s
+[Parallel(n_jobs=8)]: Done 100 out of 100 | elapsed:   30.6s finished
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:    6.9s
+[Parallel(n_jobs=8)]: Done 100 out of 100 | elapsed:   30.7s finished
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:    6.8s
+[Parallel(n_jobs=8)]: Done 100 out of 100 | elapsed:   30.6s finished
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:    6.8s
+[Parallel(n_jobs=8)]: Done 100 out of 100 | elapsed:   30.5s finished
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:    6.7s
+[Parallel(n_jobs=8)]: Done 100 out of 100 | elapsed:   30.7s finished
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:    6.9s
+[Parallel(n_jobs=8)]: Done 100 out of 100 | elapsed:   30.8s finished
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:    6.8s
+[Parallel(n_jobs=8)]: Done 100 out of 100 | elapsed:   30.7s finished
+[Parallel(n_jobs=8)]: Done  34 tasks      | elapsed:    7.0s
+[Parallel(n_jobs=8)]: Done 100 out of 100 | elapsed:   30.8s finished

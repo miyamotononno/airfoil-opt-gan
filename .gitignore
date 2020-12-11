@@ -2,3 +2,4 @@ trained_gan/*
 tmp/*
 *.pyc
 */*.pyc
+_core*
